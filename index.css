@@ -1,0 +1,62 @@
+#nav{
+          border: 0px solid black;
+          display: flex;
+          justify-content: space-around;
+          width:max-content;
+          margin: auto;
+          margin-top: 1%;
+          padding: 1%;
+          gap: 20px;
+}
+body{
+          background-color: rgb(199, 228, 239);
+}
+
+#city,#submite,#current{
+          margin: auto;
+          border: black 3px solid;
+          background-color: rgb(246, 245, 250);
+          font-size: 20px;
+          margin-bottom: 1%;
+          border-radius: 5px;
+          
+}
+#submite,#current,#button{
+          width: max-content;
+          background-color: rgb(36, 124, 159);
+          color: white;
+          border: 0px;
+          padding: 10px;
+          cursor: pointer;
+          border-radius: 5px;
+}
+#city{
+          display: block;
+          margin: auto;
+          margin-top: 2%;
+}
+#main{
+          display: flex;
+          justify-content: space-between;
+          width: 1200px;
+          border: 0px black solid;
+          margin: auto;
+          gap: 30px;
+}
+#first{
+          border: 0px black solid; 
+          width: 390px;
+          padding-left: 2%;
+}
+.mapouter{
+          border: 0px rgb(252, 249, 249) solid; 
+          overflow:hidden;
+          background:none!important;
+          height:500px;
+          width:1000px;    
+          border-radius: 20px;
+}
+#font{
+          font-size: 50px;
+}
+
